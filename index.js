@@ -688,28 +688,28 @@ Powered by _Leron - WhatsApp Bot_
 
  ◦🌉 *_ɦσɾσรcσρε* ~_ 
 
-🌠 *!name* <name>
- *_cari arti dari namamu_* 
+🌠 *!nama* <name>
+ *_Search For Your Name Meaning_* 
 
- contoh _!nama Maudy Ayunda_ 
+ Example _!nama Maudy Ayunda_ 
  
  🌠 *!quotes*
- *_random quotes dari tokoh terkenal_* 
+ *_Gives You Random Quotes For Random famous Characters_* 
 
 🌠 *!sifat* [nama] tt-mm-yy
- *_cari sifat berdasarkan nama dan tanggal lahir_* 
+ *_It Do a Search For Your Sifat using name and birth date_* 
 
- contoh _!sifat [Maudy Ayunda] 31-08-199_ 
+ Example _!sifat [Maudy Ayunda] 31-08-199_ 
 
 🌠 *!sial* tt mm yy
- *_cek hari apes mu_* 
+ *_Check Your Bad Day_* 
 
- contoh _!sial 17 08 1945_ 
+ Example _!sial 17 08 1945_ 
 
 🌠 *!pasangan* namamu & pasanganmu
  *_Cek kecocokan jodoh_* 
 
- contoh _!pasangan Riska & Ali_ 
+ Example _!pasangan Riska & Ali_ 
 
 🗃 *_ժօաղlօαժҽɾ* ~_
 
