@@ -706,8 +706,8 @@ Powered by _Leron - WhatsApp Bot_
 
  Example _!sial 17 08 1945_ 
 
-🌠 *!pasangan* namamu & pasanganmu
- *_Cek kecocokan jodoh_* 
+🌠 *!pasangan* name & Your Partaner
+ *_Check The Partaner Match If Is It Correct_* 
 
  Example _!pasangan Riska & Ali_ 
 
