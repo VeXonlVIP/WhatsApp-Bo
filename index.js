@@ -177,7 +177,7 @@ client.on("message", async msg => {
 
   if (msg.type == "ciphertext") {
     // Send a new message as a reply to the current one
-    msg.reply("kirim ! menu atau !help untuk melihat menu.");
+    msg.reply("Welcome To Leron WhatsApp Bot! For Commands List Type: !menu.");
   } else if (msg.body == "!ping reply") {
     // Send a new message as a reply to the current one
     msg.reply("pong");
@@ -196,11 +196,11 @@ request.get({
   var b = JSON.parse(body);
 
  var teks = `
- Berhasil Mendownload 
+ Media Downloaded 
  
  Judul = ${b.judul}
  
- Facebook Downloader By InsideHeartz (*´∇｀*)
+ Facebook Downloader
  `;
  
 exec('wget "' + b.link + '" -O mp4/fbvid.mp4', (error, stdout, stderr) => {
@@ -266,11 +266,11 @@ else if (msg.body.startsWith("!ig ")) {
             }] > Berhasil Dilakukan`
           );
           msg.reply(
-            `*BERHASIL!!!*
+            `*Succesfully Done!*
 Judul : ${judul1}
 			  
 			  
- 👾 Instagram Downloader By InsideHeartz 👾`
+ Instagram Downloader`
           );
 		  
 exec('wget "' + text + '" -O mp4/'+ namafile +'.mp4', (error, stdout, stderr) => {
@@ -296,7 +296,7 @@ exec('wget "' + text + '" -O mp4/'+ namafile +'.mp4', (error, stdout, stderr) =>
             }] > GAGAL Dilakukan`
           );
           msg.reply(
-            `[GAGAL] PASTIKAN LINK VIDEO BERSIFAT PUBLIK DAN DAPAT DIAKSES OLEH SEMUA ORANG!*`
+            `Failed!! Be Sure That The Link is Valid Or Anyone Can Access It*`
           );
           browser.close();
         }
@@ -306,7 +306,7 @@ exec('wget "' + text + '" -O mp4/'+ namafile +'.mp4', (error, stdout, stderr) =>
           `[${moment().format("hh:mm:ss")}][!fb][${msg.from}] > GAGAL Dilakukan`
         );
         msg.reply(
-          `[GAGAL] Server Sedang Down!\n\nSilahkan Coba Beberapa Saat Lagi!`
+          `[Failed] Server Is Down!\n\nPlease Try Agian Later!`
         );
         browser.close();
       });
@@ -360,14 +360,14 @@ msg.reply(`
 
 -----------------------------------
 
- Cek Hari Naas Kamu ~
+ Check Your Bad Day ~
  
  
  ${d}
  
  
  ----------------------------------
-  👾 InsideBot 2020👾
+  Leron - WhatsApp Bot
  
  `); 
 });
