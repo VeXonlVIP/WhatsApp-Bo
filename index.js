@@ -267,7 +267,7 @@ else if (msg.body.startsWith("!ig ")) {
           );
           msg.reply(
             `*Succesfully Done!*
-Judul : ${judul1}
+Title : ${judul1}
 			  
 			  
  Instagram Downloader`
@@ -397,14 +397,14 @@ msg.reply(`
 
 -----------------------------------
 
- *Cek Kecocokan Jodoh Berdasarkan Nama ~*
+ *Check That The Name Matches  ~*
  
  
  ${d}
  
  
  ----------------------------------
-  👾 InsideBot 2020 👾
+  Leron - WhatsApp Bot
  
  `); 
 });
@@ -418,7 +418,7 @@ if(videoid != null) {
 } else {
     msg.reply("Videonya gavalid gan.");
 }
-msg.reply(" Tunggu sebentar kak .. Lagi di proses ☺");
+msg.reply(" Wait a Little Longer Time For The Process To Be Done ☺");
 var YoutubeMp3Downloader = require("youtube-mp3-downloader");
 
 //Configure YoutubeMp3Downloader with your settings
@@ -437,7 +437,7 @@ YD.on("finished", function(err, data) {
 const media = MessageMedia.fromFilePath(data.file);
 msg.reply(` 
  
-   Mp3 Berhasil di download
+   Mp3 File Is Done check It
    
   ----------------------------------
 
@@ -446,8 +446,7 @@ Nama : *${data.title}*
 Artis : *${data.artist}*
 
    ----------------------------------
-👾                          👾
-  _Ytmp3 WhatsApp By InsideBot_
+ _YT MP3 Converter - Leron Bot_
 `);
 chat.sendMessage(media);
 });
@@ -498,13 +497,13 @@ request.get({
 console.log(""+ h);
 msg.reply(
             `
-      *Arti Dari Namamu*
+      *Meaning Of Your Name*
 
   ----------------------------------
-         Nama _*${nama}*_ ${h}
+         Name _*${nama}*_ ${h}
   ----------------------------------
 
-  _InsideBot_
+  _Leron - WhatsApp Bot_
 `
         );
 });
@@ -534,13 +533,13 @@ request.post({
 console.log(""+ h);
             msg.reply(
             `
-            *Sifat Dari Nama dan Tanggal Lahir*
+            *Nature Of Name and Date Of Birth*
          
   ----------------------------------
-         Nama ${h}
+         Name ${h}
   ----------------------------------
 
-  _Primbon WhatsApp By InsideBot_
+  _Leron - WhatsApp Bot_
 `
         );
 });
@@ -557,7 +556,7 @@ client.sendMessage(
  ${body}
 
 
-Powered by _fdcibot_
+Powered by _Leron - WhatsApp Bot_
 `));
 }
  else if (msg.body.startsWith("!yt ")) {
@@ -570,7 +569,7 @@ var videoid = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:
  client.sendMessage(
       msg.from,
       `
- Tunggu....
+ Please Wait....
 
 
 `);
@@ -596,7 +595,7 @@ client.sendMessage(
  ${body}
 
 
-Powered by _fdcibot_
+Powered by _Leron - WhatsApp Bot_
 `));
 }
  else if (msg.body.startsWith("!resi ")) {
@@ -630,8 +629,8 @@ Powered by _fdcibot_
               }] > Berhasil Dilakukan`
             );
             msg.reply(
-              "*Berhasil Melacak*\n\n" +
-              "Nama Penerima : " +
+              "*Suceesful Tracking*\n\n" +
+              "Recipient Name : " +
               resst.name +
               "\nKurir : " +
               resst.kurir +
@@ -680,7 +679,7 @@ Powered by _fdcibot_
     client.sendMessage(
       msg.from,
       `  
-◦•●◉✿ ஜ۩۞۩ஜ 𝐈𝐧𝐬𝐢𝐝𝐞 𝐁𝐨𝐭 ஜ۩۞۩ஜ  ✿◉●•◦
+◦•●◉✿ ஜ۩۞۩ஜ Leron WhatsApp Bot ஜ۩۞۩ஜ  ✿◉●•◦
 
   
 
@@ -689,7 +688,7 @@ Powered by _fdcibot_
 
  ◦🌉 *_ɦσɾσรcσρε* ~_ 
 
-🌠 *!nama* <nama>
+🌠 *!name* <name>
  *_cari arti dari namamu_* 
 
  contoh _!nama Maudy Ayunda_ 
@@ -715,20 +714,20 @@ Powered by _fdcibot_
 🗃 *_ժօաղlօαժҽɾ* ~_
 
 🔖 *!fb* <url>
- *downloader facebook_* 
+ *downloader for facebook_* 
  
 🔖 *!ig* <url>
- *downloader instagram* 
+ *downloader for instagram* 
 
 🔖 *!ytmp3* <url>
- *konversi youtube ke mp3_* 
+ *Converts YouTube Videos Into MP3_* 
 
 
               🅜🅞🅡🅔    
    🅕🅔🅐🅣🅤🅡🅔🅢 🅘🅢 
 🅒🅞🅞🅜🅘🅝🅖 🅢🅞🅞🅝
 
- _Powered By_ : 💞 *InsideHeartz*
+ _Powered By_ : 💞 *IVeXonlVIP(Mohamed Amr)*
 
 `
     );
@@ -843,7 +842,7 @@ Powered by _fdcibot_
         }
       });
     }
-  } else if (msg.body === "!coronaOld") {
+  } else if (msg.body === "!suckdick3") {
     fs.readFile("./CoronaService/data.json", "utf-8", function(err, data) {
       if (err) throw err;
       const localData = JSON.parse(data);
@@ -957,11 +956,11 @@ Stay safe ya semuanya , jaga kesehatan nya masing masing`
   Ayat ۝, :  
        *${item.ar}*
   ----------------------------------
-  Terjemah : 
+  Translate : 
        _${item.id}_
   ----------------------------------
 
-  _Al-Quran WhatsApp By Abdul Muttaqin_
+  _Al-Quran WhatsApp - Leron_
 `
           );
         });
