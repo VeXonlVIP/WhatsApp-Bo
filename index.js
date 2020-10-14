@@ -804,7 +804,7 @@ Powered by _Leron - WhatsApp Bot_
   } else if (msg.body === "!mati") {
     let chat = await msg.getChat();
     if (chat.isGroup) {
-      msg.reply("Maaf, perintah ini tidak bisa digunakan di dalam grup!");
+      msg.reply("Sorry, This command cannot be used by the group!");
     } else {
       User.checkUser(msg.from).then(result => {
         if (result) {
